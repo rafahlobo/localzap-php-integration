@@ -1,0 +1,34 @@
+{
+    "name": "rafahlobo/localzap-php-integration",
+    "description": "Script PHP de integração como sistema LocalZAP.",
+    "keywords": [
+        "localzap", "whatsapp", "chatbot", "php","integration","integração"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/rafahlobo/localzap-php-integration",
+    "authors": [{
+        "name": "Rafael Lobo",
+        "email": "rafaellobouezo@gmail.com",
+        "homepage": "https://localzap.slsolution.com.br/"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.4"
+    },
+    "support": {
+        "issues": "https://github.com/rafahlobo/localzap-php-integration/issues",
+        "source": "https://github.com/rafahlobo/localzap-php-integration"
+    },
+    "autoload": {
+        "psr-0": {
+            "localzapPHP": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests"]
+    }
+}

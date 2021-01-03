@@ -1,10 +1,7 @@
-# localzap-php-integration
+<?php
 
-
-### Exemplo de utilização.
-
-```php
 require(__DIR__ . "/../src/localzapPHP/LocalzapAPI.class.php");
+
 use Localzap\LocalzapAPI;
 use Localzap\Exception\ProtocolException;
 
@@ -25,11 +22,3 @@ try {
 } catch (ProtocolException $e) {
     echo $e->getMessage();
 }
-
-```
-
-> Execute tests
-
-```bash
-composer exec phpunit --verbose tests/
-```
